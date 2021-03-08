@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #FFB6C1;
+}
+
+header {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    text-shadow: 5px 5px 5px #78E0DC;
+}
+
+.imagem-cabecalho1 {
+    transform: rotate(-20deg);
+}
+
+.imagem-cabecalho2 {
+    transform: rotate(20deg);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fundo {
+    background-image: url("./assets/papel2.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-bottom: 15%;
+}
+
+main h2 {
+    text-align: center;
+    position: relative;
+    top: 70px;
+    text-shadow: 5px 5px 5px #FFFF00;
+}
+
+.poema {
+    max-width: 475px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.1rem;
+    position: relative;
+    top: 94px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #78E0DC;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 560px) {
+    header {
+        width: 90%;
+    }
+
+    .imagem-cabecalho1, .imagem-cabecalho2 {
+        width: 75px;
+    }
+
+    .fundo {
+        padding-bottom: 25%;
+    }
+}
