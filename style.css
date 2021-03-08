@@ -57,11 +57,11 @@ main h2 {
     top: 94px;
 }
 
-.final {
+/* .final {
     margin-top: 20px;
     text-align: center;
     font-style: italic;
-}
+} */
 
 .assinatura {
     text-shadow: 1px 1px 1px red;
@@ -90,5 +90,7 @@ footer {
         width: 50px;
     }
 
-
+    .fundo {
+        padding-bottom: 25%;
+    }
 }
