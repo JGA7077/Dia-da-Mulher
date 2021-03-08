@@ -78,6 +78,10 @@ footer {
         font-size: 1.3rem;
     }
 
+    main {
+        width: 95%;
+    }
+
     .imagem-cabecalho1, .imagem-cabecalho2 {
         width: 50px;
     }
