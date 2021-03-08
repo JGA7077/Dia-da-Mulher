@@ -63,6 +63,10 @@ main h2 {
     font-style: italic;
 }
 
+.assinatura {
+    text-shadow: 1px 1px 1px red;
+}
+
 footer {
     width: 100%;
     text-align: center;
@@ -90,5 +94,5 @@ footer {
         padding-bottom: 100%;
     }
 
-    
+
 }
