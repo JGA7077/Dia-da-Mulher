@@ -57,6 +57,12 @@ main h2 {
     top: 94px;
 }
 
+.final {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
 footer {
     width: 100%;
     text-align: center;
@@ -66,14 +72,18 @@ footer {
 
 @media screen and (max-width: 560px) {
     header {
-        width: 90%;
+        width: 100%;
+    }
+    header h1 {
+        font-size: 1.3rem;
     }
 
     .imagem-cabecalho1, .imagem-cabecalho2 {
-        width: 75px;
+        width: 50px;
     }
 
     .fundo {
-        padding-bottom: 25%;
+        padding-bottom: 20%;
     }
+
 }
